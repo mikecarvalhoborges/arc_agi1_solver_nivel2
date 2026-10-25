@@ -1,0 +1,42 @@
+=====================================================================================
+EXPERIMENT SUMMARY: ARC-AGI-1 SOLVER EVALUATION
+Date & Time: 2026-10-24 12:14:19
+=====================================================================================
+
+Label:                   arc_agi1_gemini35_high_code
+Model:                   gemini-3.5-flash-lite
+Thinking Level:          high
+Approach:                code
+Tasks Solved:            17/20 (85.0%)
+Solved with Loop:        3
+Average Attempts/Task:   1.40
+Train Perfect / Test Fail: 2 ['evaluation/d47aa2ff.json', 'evaluation/f5aa3634.json']
+Input Tokens:            89,584
+Reasoning Tokens:        370,559
+Answer Tokens:           20,683
+Total Tokens:            480,826
+Total Time:              1464.64s (Avg: 73.23s/task)
+-------------------------------------------------------------------------------------
+Task ID                   | Solved  | Grade | Att  | Train  | Input   | Reasoning | Time (s)
+-------------------------------------------------------------------------------------
+training/3aa6fb7a.json    | YES     | 1.0   | 1    | 2/2    | 1125    | 3732      | 17.14   
+training/44d8ac46.json    | YES     | 1.0   | 3    | 3/4    | 12892   | 38879     | 127.01  
+training/44f52bb0.json    | YES     | 1.0   | 1    | 6/6    | 779     | 5711      | 85.83   
+training/007bbfb7.json    | YES     | 1.0   | 1    | 5/5    | 1897    | 5301      | 48.37   
+training/25ff71a9.json    | YES     | 1.0   | 1    | 4/4    | 747     | 3063      | 16.99   
+training/0a938d79.json    | YES     | 1.0   | 2    | 4/4    | 10937   | 15518     | 57.47   
+training/1cf80156.json    | YES     | 1.0   | 1    | 3/3    | 2214    | 2290      | 18.77   
+training/2013d3e2.json    | YES     | 1.0   | 1    | 2/2    | 1353    | 6454      | 22.46   
+training/32597951.json    | YES     | 1.0   | 1    | 3/3    | 6593    | 9853      | 27.86   
+training/9565186b.json    | YES     | 1.0   | 1    | 4/4    | 693     | 2169      | 15.61   
+evaluation/9a4bb226.json  | YES     | 1.0   | 1    | 3/3    | 3249    | 4399      | 40.97   
+evaluation/aab50785.json  | YES     | 1.0   | 1    | 5/5    | 4376    | 19434     | 52.21   
+evaluation/d47aa2ff.json  | NO      | 0.0   | 1    | 3/3    | 3895    | 22547     | 58.15   
+evaluation/f5aa3634.json  | NO      | 0.0   | 2    | 3/3    | 5562    | 34181     | 107.16  
+evaluation/93b4f4b3.json  | NO      | 0.0   | 3    | 0/2    | 8454    | 99839     | 312.91  
+evaluation/e9b4f6fc.json  | YES     | 1.0   | 1    | 4/4    | 3443    | 12082     | 36.45   
+evaluation/7c9b52a0.json  | YES     | 1.0   | 3    | 3/3    | 10978   | 53047     | 151.55  
+evaluation/c658a4bd.json  | YES     | 1.0   | 1    | 2/2    | 3221    | 11323     | 69.55   
+evaluation/50aad11f.json  | YES     | 1.0   | 1    | 3/3    | 2983    | 10244     | 154.43  
+evaluation/7d18a6fb.json  | YES     | 1.0   | 1    | 3/3    | 4193    | 10493     | 43.74   
+-------------------------------------------------------------------------------------
